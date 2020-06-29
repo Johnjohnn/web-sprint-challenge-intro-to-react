@@ -22,7 +22,8 @@ const App = () => {
 const Header = styled.h1`
   font-family: "Codystar", impact;
   color: black;
-  font-size: 50px;
+  font-size: 80px;
+  text-shadow: 5px 7px 5px white;
 `;
 
 const Subheading = styled.h3`
