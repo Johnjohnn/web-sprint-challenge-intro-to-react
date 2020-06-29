@@ -52,8 +52,8 @@ const Subheading = styled.h3`
 
   return (
     <div className="App">
-    <Header>React Wars</Header>
-    <Subheading>Pick your characters wisely!</Subheading>
+    <Header>Star Wars</Header>
+    <Subheading>Character Stats and Attributes!</Subheading>
     <CardBox>
         {results.map (char => <CharacterCard name={char.name} height = {char.height} mass = {char.mass} hair={char.hair_color} skin={char.skin_color} eye={char.eye_color} birth={char.birth_year} gender={char.gender} />)}
     </CardBox>
