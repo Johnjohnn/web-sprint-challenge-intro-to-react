@@ -20,14 +20,14 @@ const App = () => {
 `;
 
 const Header = styled.h1`
-  font-family: "Codystar", cursive;
+  font-family: "Codystar", impact;
   color: black;
-  font-size: 26px;
+  font-size: 50px;
 `;
 
 const Subheading = styled.h3`
   font-family: "Press Start 2P", cursive;
-  font-size: 16px;
+  font-size: 20px;
   color: black;
 `;
 

@@ -7,12 +7,12 @@ export default function CharacterCard (props) {
     const CharCard = styled.div`
         border-radius: 2px;
         
-        border: 2px solid #FFE818;
+        border: 5px solid white;
         box-shadow: 5px 7px 3px black;
         margin: 10px;
         padding: 0px 10px;
         background-color: black;
-        color: #FFE818;
+        color: white;
         width: 25%;
     `;
 
